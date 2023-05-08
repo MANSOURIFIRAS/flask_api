@@ -1,9 +1,8 @@
-# import os
-# import pickle
-# import numpy as np
-# from PIL import Image
-from flask import Flask
-# , jsonify, request
+import os
+import pickle
+import numpy as np
+from PIL import Image
+from flask import Flask , jsonify, request
 
 app = Flask(__name__)
 
